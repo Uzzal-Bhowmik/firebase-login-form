@@ -1,0 +1,18 @@
+.parent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  width: 35%;
+  height: 35rem;
+  border-radius: 1.6rem;
+  box-shadow: 8px 8px 30px rgb(223, 205, 208);
+}
+
+.toggle-buttons h4 {
+  border: 2px solid transparent;
+  user-select: none;
+  transition: border .5s ease-in;
+}

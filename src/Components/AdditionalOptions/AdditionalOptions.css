@@ -1,0 +1,27 @@
+.divider {
+  padding: 1rem;
+}
+.divider p {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid rgba(0, 0, 0, 0.185); 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+.divider span {
+  background:#fff; 
+    padding:0 10px; 
+}
+.bi {
+    font-size: 1.5rem;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 10px 14px;
+}
+.bi:hover {
+    background-color: black;
+    border: 2px solid;
+    cursor: pointer;
+    color: rgb(255, 171, 133);
+    transition: background-color .4s linear;
+}
